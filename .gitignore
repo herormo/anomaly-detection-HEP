@@ -1,6 +1,5 @@
 # Dataset
-dataset/*.zip
-dataset/train_sample
+dataset/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
