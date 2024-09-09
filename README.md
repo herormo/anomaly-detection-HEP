@@ -1,22 +1,17 @@
 
 # anomaly-detection-HEP
 
-The objective of this project is to develop an unsupervised
-anomaly detection framework using Variational Autoencoders to identify local
-overdensities in high energy physics data, thereby distinguishing signal resonances from
-the overwhelming background noise. This method aims to enhance the detection of
-group anomalies..
+
+The objective of this project is to develop an unsupervised anomaly detection framework using Variational Autoencoders (VAEs) to identify potential new physics phenomena in proton-proton collision data from the Large Hadron Collider (LHC). The dataset, which simulates real-time data streams from LHC detectors like ATLAS and CMS, has been pre-filtered to include events containing at least one electron or muon.
 
 ## Dataset
 
-Download the training sample zip file from either running the code or manually downloading through these two links:
+Download the data from the link below into the ./dataset folder
 
-1. [Google Drive](https://drive.google.com/file/d/1PVQTx8l5Pdqws9-AIMLsPm0P8jslOz2r/view?usp=drive_link)
-2. [Kaggle](https://www.kaggle.com/competitions/trackml-particle-identification/data?select=train_sample.zip)
+1. [Google Drive](https://drive.google.com/drive/folders/1inrl_G7qGziZ0dI5qwARQweZ85U8exZH?usp=sharing)
 
 ## Requirements
 
 Download the package requirement:
 
 pip install -r requirements.txt
-
